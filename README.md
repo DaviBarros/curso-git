@@ -6,3 +6,4 @@ Aqui temos as informações sobre nosso projeto.
 
 - Página home
 - Página Serviços
+- Página quem somos
