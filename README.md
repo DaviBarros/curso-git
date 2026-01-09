@@ -1,8 +1,8 @@
-#Projeto Flowthink
+# Projeto Flowthink
 
 Aqui temos as informações sobre nosso projeto.
 
-##Site da empresa
+## Site da empresa
 
 - Página home
 - Página Serviços
