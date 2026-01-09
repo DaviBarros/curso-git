@@ -1,1 +1,3 @@
-Inicando o projeto
+#Projeto Flowthink
+
+Aqui temos as informações sobre nosso projeto.
