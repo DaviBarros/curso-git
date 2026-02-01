@@ -1,0 +1,64 @@
+/* 1. RESET DE ESTILOS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho do elemento */
+    -webkit-font-smoothing: antialiased; /* Deixa as fontes mais nítidas no Mac/iOS */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 2. VARIÁVEIS (Facilita mudar as cores depois) */
+:root {
+    --primary-color: #3498db;
+    --dark-color: #2c3e50;
+    --light-color: #ecf0f1;
+    --text-color: #333;
+    --bg-color: #ffffff;
+    --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 3. CONFIGURAÇÃO BASE */
+html {
+    scroll-behavior: smooth; /* Rolagem suave para links internos */
+}
+
+body {
+    font-family: var(--font-main);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* 4. TIPOGRAFIA RECURSIVA */
+h1, h2, h3, h4 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--dark-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 5. IMAGENS RESPONSIVAS */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* 6. CLASSES UTILITÁRIAS (OPCIONAL) */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
